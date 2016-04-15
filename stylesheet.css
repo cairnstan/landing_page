@@ -1,0 +1,38 @@
+body {
+  background-color: #2C2233;
+  color: #8DB500;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #5E0042;
+  padding: 50px;
+  text-align: center;
+}
+.code {
+  font-size: 150%;
+  text-shadow: 5px 5px 100px #2C2233;
+  padding-top: 50px;
+}
+img {
+  height: 150px;
+  /*margin-right: 200px;*/
+  border: 8px solid #00856A;
+  box-shadow: 10px 10px 5px #2C2233;
+}
+h1 {
+  display: inline-block;
+}
+p {
+  display: inline-block;
+  padding: 20px;
+}
+.well {
+  background-color: #005869;
+  padding-left: 50px;
+  text-align: center;
+}
+a {
+  margin: 10px;
+  padding: 5px;
+}
