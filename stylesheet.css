@@ -1,16 +1,30 @@
 body {
   background: url("images/mpls-skyline.jpg") no-repeat;
   background-size: cover;
+  /*font-family: 'Handlee', cursive;*/
+  /*font-family: 'Architects Daughter', cursive;*/
+  /*font-family: 'Calligraffitti', cursive;*/
+  /*font-family: 'Neucha', cursive;*/
+  /*font-family: 'Rancho', cursive;*/
+  /*font-family: 'Berkshire Swash', cursive;*/
+  /*font-family: 'Delius', cursive;*/
+  /*font-family: 'Aladin', cursive;*/
+  /*font-family: 'Fondamento', cursive;*/
+  /*font-family: 'Eagle Lake', cursive;*/
+  font-family: 'Cabin', sans-serif;
 }
 
-.header {
+.jumbotron {
   color: #29404E;
   text-shadow: 2px 2px #BBC2C6;
   font-weight: bold;
   background-color: transparent;
   text-align: center;
+  padding: 25px;
 }
-
+.description {
+  text-decoration: none;
+}
 img {
   height: 175px;
   /*margin-right: 200px;*/
@@ -26,6 +40,9 @@ h2 {
   text-shadow: 1px 1px #BBC2C6;
   font-weight: bold;
 }
+h3 {
+  text-decoration: underline;
+}
 p {
   display: inline-block;
   padding: 20px;
@@ -38,4 +55,13 @@ p {
 a {
   margin: 10px;
   padding: 5px;
+  color: #E2EFF9;
+}
+content {
+  text-align: center;
+  color: #29404E;
+  text-shadow: 1px 1px #BBC2C6;
+}
+ul {
+  list-style: none;
 }
