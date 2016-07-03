@@ -1,34 +1,37 @@
 body {
-  background-color: #2C2233;
-  color: #8DB500;
-  font-weight: bold;
+  background: url("images/mpls-skyline.jpg") no-repeat;
+  background-size: cover;
 }
 
-.jumbotron {
-  background-color: #5E0042;
-  padding: 50px;
+.header {
+  color: #29404E;
+  text-shadow: 2px 2px #BBC2C6;
+  font-weight: bold;
+  background-color: transparent;
   text-align: center;
 }
-.code {
-  font-size: 150%;
-  text-shadow: 5px 5px 100px #2C2233;
-  padding-top: 50px;
-}
+
 img {
-  height: 150px;
+  height: 175px;
   /*margin-right: 200px;*/
-  border: 8px solid #00856A;
-  box-shadow: 10px 10px 5px #2C2233;
+  border: 4px solid #77848D;
+  box-shadow: 0 0 15px #3E3D43;
 }
 h1 {
   display: inline-block;
+  text-decoration: underline;
+}
+h2 {
+  color: #29404E;
+  text-shadow: 1px 1px #BBC2C6;
+  font-weight: bold;
 }
 p {
   display: inline-block;
   padding: 20px;
 }
-.well {
-  background-color: #005869;
+.container {
+  background-color: transparent;
   padding-left: 50px;
   text-align: center;
 }
