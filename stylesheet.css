@@ -65,3 +65,8 @@ content {
 ul {
   list-style: none;
 }
+.links {
+  color: #29404E;
+  text-shadow: 1px 1px #BBC2C6;
+  font-size: 16px;
+}
