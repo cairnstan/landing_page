@@ -3,16 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Cari Tan</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
     <link rel="stylesheet" href="stylesheet.css" />
-    <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Rancho|Berkshire+Swash|Delius|Aladin|Fondamento|Eagle+Lake' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -22,7 +17,7 @@
       <p>Great things</p>
     </aside> -->
     <article>
-      <ul class="nav nav-tabs">
+      <!-- <ul class="nav nav-tabs">
 
   <li role="presentation" class="dropdown">
     <a id="project" class="dropdown-toggle" data-toggle="dropdown" data-target="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -44,8 +39,32 @@
     </ul>
   </li>
 
-</ul>
-
+</ul> -->
+<nav class="navbar nav-tabs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">MASH</a></li>
+          <li><a href="#">DISKo</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Awesome Things by Awesome People
+      <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://modelviewculture.com/" target="_blank">Model View Culture</a></li>
+        <li><a href="http://www.codenewbie.org/" target="_blank">Code Newbie</a></li>
+      </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
 
     <header class="jumbotron">
       <h1 class="cover-heading">Cari Tan</h1>
@@ -97,5 +116,10 @@
 
     </footer>
     </article>
+    <!-- <script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+</script> -->
   </body>
 </html>
